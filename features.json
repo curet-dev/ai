@@ -1,0 +1,962 @@
+  {
+    "dashboard_features": {
+      "overview": {
+        "title": "Dashboard Overview",
+        "category": "Analytics & Statistics",
+        "url": "/dashboard",
+        "description": "View comprehensive analytics and statistics for your profile performance",
+        "features": [
+          {
+            "name": "Profile Statistics Cards",
+            "description": "View username, alias, UID, profile views, and total link clicks in dedicated cards",
+            "location": "Top statistics section"
+          },
+          {
+            "name": "Profile Views Chart",
+            "description": "Interactive chart showing profile views over time with multiple time ranges",
+            "location": "Profile Views component"
+          },
+          {
+            "name": "Time Range Selection",
+            "description": "Switch between 24h, 7d, 14d, and 30d time ranges for all analytics",
+            "location": "Time range selector"
+          },
+          {
+            "name": "Visitor Devices Analytics",
+            "description": "See breakdown of visitor devices (Desktop, Mobile, Tablet, Unknown)",
+            "location": "Visitor Devices section"
+          },
+          {
+            "name": "Top Countries Viewer",
+            "description": "View which countries your visitors are from with country names and visitor counts",
+            "location": "Top Countries section"
+          },
+          {
+            "name": "Top Clicked Links",
+            "description": "See which of your links get the most clicks with detailed statistics",
+            "location": "Top Clicked Links section"
+          },
+          {
+            "name": "Profile Feedback",
+            "description": "View feedback and ratings left by visitors to your profile",
+            "location": "Profile Feedback section"
+          },
+          {
+            "name": "Hourly Views (24h)",
+            "description": "Detailed hourly breakdown of profile views for the last 24 hours",
+            "location": "Profile Views component (24h mode)"
+          }
+        ],
+        "keywords": ["overview", "analytics", "statistics", "views", "clicks", "visitors", "countries", "feedback", "dashboard", "metrics", "performance"]
+      },
+      "customize": {
+        "title": "Customize",
+        "category": "Profile & Customization",
+        "url": "/dashboard/customize",
+        "description": "Comprehensive profile customization with colors, audio, backgrounds, and visual effects",
+        "features": [
+          {
+            "name": "Accent Color Picker",
+            "description": "Choose custom accent color for highlights and interactive elements with hex color picker",
+            "location": "Color Customization section"
+          },
+          {
+            "name": "Text Color Customization",
+            "description": "Set custom text color for all text elements on your profile",
+            "location": "Color Customization section"
+          },
+          {
+            "name": "Background Color Control",
+            "description": "Customize your profile's background color with color picker",
+            "location": "Color Customization section"
+          },
+          {
+            "name": "Icon Color Settings",
+            "description": "Change the color of icons throughout your profile",
+            "location": "Color Customization section"
+          },
+          {
+            "name": "Gradient Background",
+            "description": "Enable gradient backgrounds with primary and secondary color selection",
+            "location": "Color Customization section"
+          },
+          {
+            "name": "Gradient Angle Control",
+            "description": "Adjust gradient angle from 0° to 360° with interactive slider",
+            "location": "Color Customization section"
+          },
+          {
+            "name": "Audio File Upload",
+            "description": "Upload custom audio files (MP3, WAV, OGG) for background music",
+            "location": "Audio Manager"
+          },
+          {
+            "name": "Audio Cover Upload",
+            "description": "Upload custom cover images for your audio tracks",
+            "location": "Audio Manager"
+          },
+          {
+            "name": "Audio Title Editing",
+            "description": "Set custom titles for your uploaded audio tracks",
+            "location": "Audio Manager"
+          },
+          {
+            "name": "Audio External URLs",
+            "description": "Add external URLs to your audio tracks for additional information",
+            "location": "Audio Manager"
+          },
+          {
+            "name": "Audio Shuffle Control",
+            "description": "Enable or disable shuffle mode for multiple audio tracks",
+            "location": "Audio Manager settings"
+          },
+          {
+            "name": "Audio Player Visibility",
+            "description": "Control whether the audio player is visible to visitors",
+            "location": "Audio Manager settings"
+          },
+          {
+            "name": "Audio Volume Control",
+            "description": "Enable or disable volume controls for visitors",
+            "location": "Audio Manager settings"
+          },
+          {
+            "name": "Audio Track Activation",
+            "description": "Activate or deactivate individual audio tracks",
+            "location": "Audio Manager"
+          },
+          {
+            "name": "Audio Track Reordering",
+            "description": "Drag and drop to reorder your audio tracks",
+            "location": "Audio Manager"
+          },
+          {
+            "name": "Audio Track Deletion",
+            "description": "Delete audio tracks and their associated files",
+            "location": "Audio Manager"
+          },
+          {
+            "name": "Audio Track Editing",
+            "description": "Edit existing audio track titles, covers, and external URLs",
+            "location": "Audio Manager"
+          },
+          {
+            "name": "Audio File Validation",
+            "description": "Automatic validation of audio file types and sizes",
+            "location": "Audio Manager upload"
+          },
+          {
+            "name": "Presence Customization",
+            "description": "Customize Discord presence display and settings",
+            "location": "Presence Customization section"
+          },
+          {
+            "name": "General Profile Settings",
+            "description": "General customization options for overall profile appearance",
+            "location": "General Customization section"
+          },
+          {
+            "name": "Border Customization",
+            "description": "Customize profile card borders with colors and styles",
+            "location": "Border Customization section"
+          },
+          {
+            "name": "Glow Effects",
+            "description": "Add glow effects to profile elements",
+            "location": "Glow Customization section"
+          },
+          {
+            "name": "YouTube URL Integration",
+            "description": "Integrate YouTube videos or playlists into your profile",
+            "location": "YouTube URL Input section"
+          },
+          {
+            "name": "Other Visual Effects",
+            "description": "Additional visual customization options and effects",
+            "location": "Other Customization section"
+          }
+        ],
+        "keywords": ["customize", "colors", "audio", "music", "background", "gradient", "upload", "visual", "effects", "borders", "glow", "youtube", "presence"]
+      },
+      "premium": {
+        "title": "Premium Features",
+        "category": "Profile & Customization",
+        "url": "/dashboard/premium",
+        "description": "Exclusive premium features for enhanced profile customization and functionality",
+        "features": [
+          {
+            "name": "Custom Alias Creation",
+            "description": "Create custom URL aliases for your profile (e.g., haunt.gg/youralias)",
+            "location": "Alias Settings section"
+          },
+          {
+            "name": "Animated Borders",
+            "description": "Add animated border effects to your profile cards and elements",
+            "location": "Border Animation section"
+          },
+          {
+            "name": "Border Animation Types",
+            "description": "Choose from various border animation styles and effects",
+            "location": "Border Animation section"
+          },
+          {
+            "name": "Custom Cursor Effects",
+            "description": "Add custom cursor trails and effects for profile visitors",
+            "location": "Cursor Effects section"
+          },
+          {
+            "name": "Cursor Trail Customization",
+            "description": "Customize cursor trail colors, shapes, and behavior",
+            "location": "Cursor Effects section"
+          },
+          {
+            "name": "Premium Font Library",
+            "description": "Access to exclusive premium fonts: Satoshi, Outfit, Poppins, Chillax, Alpino, Bespoke Stencil, Array, Chomsky",
+            "location": "Font Settings section"
+          },
+          {
+            "name": "Custom Font Upload",
+            "description": "Upload your own custom fonts (WOFF2, WOFF, TTF, OTF files up to 5MB)",
+            "location": "Font Settings section"
+          },
+          {
+            "name": "Font Preview System",
+            "description": "Live preview of how fonts will look on your profile",
+            "location": "Font Settings section"
+          },
+          {
+            "name": "Custom Font Management",
+            "description": "Upload, delete, and manage custom font files",
+            "location": "Font Settings section"
+          },
+          {
+            "name": "Profile Animation Control",
+            "description": "Enable and customize profile entrance and hover animations",
+            "location": "Profile Animation section"
+          },
+          {
+            "name": "Profile Metadata Settings",
+            "description": "Advanced metadata and SEO settings for your profile",
+            "location": "Profile Metadata section"
+          },
+          {
+            "name": "Typewriter Effect Descriptions",
+            "description": "Add animated typewriter effects to your profile descriptions",
+            "location": "Typewriter Descriptions section"
+          },
+          {
+            "name": "Typewriter Speed Control",
+            "description": "Adjust the speed and timing of typewriter animations",
+            "location": "Typewriter Descriptions section"
+          },
+          {
+            "name": "Profile Visibility Settings",
+            "description": "Advanced privacy and visibility controls for your profile",
+            "location": "Profile Visibility Settings section"
+          },
+          {
+            "name": "Premium Theme Access",
+            "description": "Access to exclusive premium themes and layouts",
+            "location": "Premium themes throughout dashboard"
+          }
+        ],
+        "keywords": ["premium", "alias", "animations", "cursor", "fonts", "custom", "upload", "typewriter", "metadata", "visibility", "exclusive", "pro"]
+      },
+      "layout": {
+        "title": "Layout & Themes",
+        "category": "Profile & Customization",
+        "url": "/dashboard/layout",
+        "description": "Choose and customize different layout themes for your profile",
+        "features": [
+          {
+            "name": "Theme Selection",
+            "description": "Choose between Default, Modern, and Simplistic theme layouts",
+            "location": "Theme Selection section"
+          },
+          {
+            "name": "Default Theme Settings",
+            "description": "Customize settings specific to the Default theme layout",
+            "location": "Default Theme Settings"
+          },
+          {
+            "name": "Modern Theme Settings",
+            "description": "Advanced customization options for the Modern theme with contemporary design elements",
+            "location": "Modern Theme Settings"
+          },
+          {
+            "name": "Modern Theme Layout Options",
+            "description": "Configure layout elements, spacing, and arrangement for Modern theme",
+            "location": "Modern Theme Settings"
+          },
+          {
+            "name": "Modern Theme Color Schemes",
+            "description": "Select from predefined color schemes optimized for Modern theme",
+            "location": "Modern Theme Settings"
+          },
+          {
+            "name": "Modern Theme Social Cards",
+            "description": "Configure social card settings for Modern theme (Discord Server, Github, Roblox, Telegram, Last.fm, Stats.fm, Valorant, Spotify",
+            "location": "Modern Theme Settings"
+          },
+          {
+            "name": "Simplistic Theme Settings",
+            "description": "Minimalist design options for clean, simple profile layouts",
+            "location": "Simplistic Theme Settings"
+          },
+          {
+            "name": "Theme Preview System",
+            "description": "Live preview of how your profile will look with different themes",
+            "location": "Theme Selection interface"
+          },
+          {
+            "name": "Layout Responsiveness",
+            "description": "Ensure optimal display across desktop, tablet, and mobile devices",
+            "location": "All theme settings"
+          },
+          {
+            "name": "Custom Layout Elements",
+            "description": "Add, remove, or rearrange layout elements within your chosen theme",
+            "location": "Theme-specific settings"
+          }
+        ],
+        "keywords": ["layout", "themes", "modern", "default", "simplistic", "design", "responsive", "preview", "arrangement", "elements"]
+      },
+      "badges": {
+        "title": "Badges & Achievements",
+        "category": "Rewards & Socials",
+        "url": "/dashboard/badges",
+        "description": "Manage, customize, and display your profile badges and achievements",
+        "features": [
+          {
+            "name": "Badge Color Customization",
+            "description": "Change the primary color of your badges with color picker",
+            "location": "Badge Settings section"
+          },
+          {
+            "name": "Monochrome Badge Mode",
+            "description": "Enable or disable monochrome (black & white) badge display",
+            "location": "Badge Settings section"
+          },
+          {
+            "name": "Badge Glow Effects",
+            "description": "Add or remove glow effects around your badges",
+            "location": "Badge Settings section"
+          },
+          {
+            "name": "Advanced Badge Customization",
+            "description": "Enable advanced badge customization options",
+            "location": "Badge Customization section"
+          },
+          {
+            "name": "Badge Accent Color",
+            "description": "Set accent colors for badge highlights and details",
+            "location": "Badge Customization section"
+          },
+          {
+            "name": "Badge Opacity Control",
+            "description": "Adjust badge transparency from 0-100% with slider",
+            "location": "Badge Customization section"
+          },
+          {
+            "name": "Badge Border Settings",
+            "description": "Enable or disable borders around badges",
+            "location": "Badge Customization section"
+          },
+          {
+            "name": "Badge Border Color",
+            "description": "Customize the color of badge borders",
+            "location": "Badge Customization section"
+          },
+          {
+            "name": "Badge Border Width",
+            "description": "Adjust border thickness from 0-10px with slider",
+            "location": "Badge Customization section"
+          },
+          {
+            "name": "Badge Border Opacity",
+            "description": "Control border transparency from 0-100%",
+            "location": "Badge Customization section"
+          },
+          {
+            "name": "Badge Border Radius",
+            "description": "Adjust corner roundness of badges from 0-50px",
+            "location": "Badge Customization section"
+          },
+          {
+            "name": "Regular Badges Management",
+            "description": "View and manage standard platform badges",
+            "location": "Regular Badges section"
+          },
+          {
+            "name": "Custom Badges Management",
+            "description": "Create, edit, and manage custom user badges",
+            "location": "Custom Badges section"
+          },
+          {
+            "name": "Badge Display Control",
+            "description": "Choose which badges to show or hide on your profile",
+            "location": "Badge Management interface"
+          },
+          {
+            "name": "Badge Color Editor",
+            "description": "Advanced color editing for individual badges",
+            "location": "Badge Color Edit Modal"
+          },
+          {
+            "name": "Badge Organization",
+            "description": "Arrange and organize badges in your preferred order",
+            "location": "Badge management interface"
+          }
+        ],
+        "keywords": ["badges", "achievements", "custom", "colors", "glow", "borders", "opacity", "monochrome", "display", "management", "customization"]
+      },
+      "links": {
+        "title": "Social Links & URLs",
+        "category": "Rewards & Socials",
+        "url": "/dashboard/links",
+        "description": "Add, manage, and customize social media links and custom URLs",
+        "features": [
+          {
+            "name": "Social Platform Integration",
+            "description": "Add links to 20+ social platforms including Discord, Twitter, Instagram, YouTube, GitHub, etc.",
+            "location": "Add/Edit Link Modal"
+          },
+          {
+            "name": "Custom Link Creation",
+            "description": "Create custom links with personalized titles and URLs",
+            "location": "Add/Edit Link Modal"
+          },
+          {
+            "name": "Link Type Selection",
+            "description": "Choose between hyperlinks (clickable) and copyable text for each link",
+            "location": "Add/Edit Link Modal"
+          },
+          {
+            "name": "Custom Icon Upload",
+            "description": "Upload custom icons for your links (PNG, JPG, GIF, WebP up to 2MB)",
+            "location": "Icon Settings section"
+          },
+          {
+            "name": "Platform Icon Library",
+            "description": "Choose from a library of pre-made social platform icons",
+            "location": "Add/Edit Link Modal"
+          },
+          {
+            "name": "Link Color Customization",
+            "description": "Customize the background and text colors of individual links",
+            "location": "Link Color Edit Modal"
+          },
+          {
+            "name": "Link Reordering",
+            "description": "Drag and drop to reorder your links in the desired sequence",
+            "location": "Links List interface"
+          },
+          {
+            "name": "Link Activation Control",
+            "description": "Enable or disable individual links without deleting them",
+            "location": "Links List interface"
+          },
+          {
+            "name": "Link Analytics",
+            "description": "View detailed click statistics and analytics for each link",
+            "location": "Dashboard Overview - Top Clicked Links"
+          },
+          {
+            "name": "Link Validation",
+            "description": "Automatic validation of URLs and usernames for different platforms",
+            "location": "Add/Edit Link Modal"
+          },
+          {
+            "name": "Crypto Address Support",
+            "description": "Add cryptocurrency addresses (Bitcoin, Ethereum, Litecoin) as copyable text",
+            "location": "Add/Edit Link Modal"
+          },
+          {
+            "name": "Platform Search",
+            "description": "Search through available social platforms when adding links",
+            "location": "Add/Edit Link Modal"
+          },
+          {
+            "name": "Link Preview",
+            "description": "Preview how links will appear on your profile before saving",
+            "location": "Add/Edit Link Modal"
+          },
+          {
+            "name": "Bulk Link Operations",
+            "description": "Perform operations on multiple links simultaneously",
+            "location": "Links List interface"
+          },
+          {
+            "name": "Link Import/Export",
+            "description": "Import or export your link configurations",
+            "location": "Links management interface"
+          }
+        ],
+        "keywords": ["links", "social", "media", "custom", "icons", "colors", "analytics", "platforms", "urls", "reorder", "validation", "crypto"]
+      },
+      "assets": {
+        "title": "Asset Management",
+        "category": "Content & Assets",
+        "url": "/dashboard/assets",
+        "description": "Upload, manage, and organize your profile assets like images and media files",
+        "features": [
+          {
+            "name": "Asset Upload System",
+            "description": "Upload various file types including images, videos, and documents",
+            "location": "Asset Upload Modal"
+          },
+          {
+            "name": "File Type Validation",
+            "description": "Automatic validation of file types and sizes based on asset categories",
+            "location": "Asset Upload Modal"
+          },
+          {
+            "name": "Asset Preview",
+            "description": "Preview uploaded assets with thumbnail generation",
+            "location": "Asset Card interface"
+          },
+          {
+            "name": "Asset Organization",
+            "description": "Organize assets with tags, categories, and custom naming",
+            "location": "Asset management interface"
+          },
+          {
+            "name": "Asset Download",
+            "description": "Download your uploaded assets directly from the dashboard",
+            "location": "Asset Card interface"
+          },
+          {
+            "name": "Asset Deletion",
+            "description": "Safely delete assets with confirmation dialogs",
+            "location": "Delete Confirmation Modal"
+          },
+          {
+            "name": "Asset Usage Tracking",
+            "description": "Track where and how your assets are being used across your profile",
+            "location": "Asset Card interface"
+          },
+          {
+            "name": "Storage Management",
+            "description": "Monitor your storage usage and available space",
+            "location": "Assets page header"
+          },
+          {
+            "name": "Asset Sharing",
+            "description": "Generate shareable links for your uploaded assets",
+            "location": "Asset Card interface"
+          },
+          {
+            "name": "Bulk Asset Operations",
+            "description": "Select and manage multiple assets simultaneously",
+            "location": "Assets grid interface"
+          }
+        ],
+        "keywords": ["assets", "upload", "images", "media", "files", "storage", "preview", "download", "organization", "sharing"]
+      },
+      "templates": {
+        "title": "Profile Templates",
+        "category": "Content & Assets",
+        "url": "/dashboard/templates",
+        "description": "Create, manage, and use profile templates for quick customization",
+        "features": [
+          {
+            "name": "Template Creation",
+            "description": "Create new profile templates from your current customization settings",
+            "location": "Create Template Dialog"
+          },
+          {
+            "name": "Template Editing",
+            "description": "Edit existing template names, descriptions, and settings",
+            "location": "Edit Template Dialog"
+          },
+          {
+            "name": "My Templates",
+            "description": "View and manage templates you've created",
+            "location": "My Templates section"
+          },
+          {
+            "name": "Public Templates",
+            "description": "Browse templates shared by other users",
+            "location": "All Templates section"
+          },
+          {
+            "name": "Favorite Templates",
+            "description": "Save and organize your favorite templates from the community",
+            "location": "Favorite Templates section"
+          },
+          {
+            "name": "Template Privacy Settings",
+            "description": "Set templates as public or private",
+            "location": "Privacy Toggle Dialog"
+          },
+          {
+            "name": "Template Preview",
+            "description": "Preview how templates will look before applying them",
+            "location": "Template Card interface"
+          },
+          {
+            "name": "Template Application",
+            "description": "Apply template settings to your profile with one click",
+            "location": "Template Card interface"
+          },
+          {
+            "name": "Template Sharing",
+            "description": "Share your templates with the community",
+            "location": "Template settings"
+          },
+          {
+            "name": "Template Search",
+            "description": "Search through available templates by name or tags",
+            "location": "Templates page header"
+          },
+          {
+            "name": "Template Categories",
+            "description": "Browse templates by categories and themes",
+            "location": "All Templates section"
+          },
+          {
+            "name": "Template Deletion",
+            "description": "Delete your own templates with confirmation",
+            "location": "Delete Confirmation Dialog"
+          }
+        ],
+        "keywords": ["templates", "profiles", "customization", "sharing", "community", "favorites", "public", "private", "preview", "apply"]
+      },
+      "decoration": {
+        "title": "Profile Decorations",
+        "category": "Content & Assets",
+        "url": "/dashboard/decoration",
+        "description": "Browse and apply decorative elements to enhance your profile appearance",
+        "features": [
+          {
+            "name": "Decoration Gallery",
+            "description": "Browse available decorative elements and effects",
+            "location": "Decoration Gallery section"
+          },
+          {
+            "name": "Decoration Preview",
+            "description": "Preview decorations before applying them to your profile",
+            "location": "Decoration Card interface"
+          },
+          {
+            "name": "Decoration Categories",
+            "description": "Browse decorations by different categories and themes",
+            "location": "Decoration Gallery filters"
+          },
+          {
+            "name": "Decoration Application",
+            "description": "Apply selected decorations to your profile",
+            "location": "Decoration Actions"
+          },
+          {
+            "name": "Decoration Management",
+            "description": "Manage and remove applied decorations",
+            "location": "Decoration Actions"
+          },
+          {
+            "name": "Pagination Controls",
+            "description": "Navigate through multiple pages of available decorations",
+            "location": "Pagination Controls"
+          },
+          {
+            "name": "Decoration Search",
+            "description": "Search for specific decorations by name or theme",
+            "location": "Decoration Gallery header"
+          },
+          {
+            "name": "Seasonal Decorations",
+            "description": "Access special decorations for holidays and seasons",
+            "location": "Decoration Gallery categories"
+          }
+        ],
+        "keywords": ["decorations", "gallery", "effects", "themes", "seasonal", "apply", "preview", "categories", "browse"]
+      },
+      "apply": {
+        "title": "Applications System",
+        "category": "Applications & Business",
+        "url": "/dashboard/apply",
+        "description": "Apply for special roles, positions, services, and affiliate codes through the admin-reviewed application system",
+        "features": [
+          {
+            "name": "Application Browsing",
+            "description": "Browse available applications and opportunities, including affiliate code applications",
+            "location": "Applications List"
+          },
+          {
+            "name": "Affiliate Code Applications",
+            "description": "Apply for affiliate codes through the admin review process - the only way to obtain affiliate codes",
+            "location": "Applications List"
+          },
+          {
+            "name": "Application Form Filling",
+            "description": "Fill out detailed application forms with various question types for different opportunities",
+            "location": "Application Form interface"
+          },
+          {
+            "name": "Application Preview",
+            "description": "Preview your application before submitting to ensure all information is correct",
+            "location": "Application Preview section"
+          },
+          {
+            "name": "My Applications Tracking",
+            "description": "Track the status of all your submitted applications, including affiliate code requests",
+            "location": "My Applications Table"
+          },
+          {
+            "name": "Application Status Updates",
+            "description": "Receive updates on application progress (Pending, Approved, Rejected) with admin notifications",
+            "location": "My Applications Table"
+          },
+          {
+            "name": "Application History",
+            "description": "View your complete application history and past submissions across all application types",
+            "location": "My Applications Table"
+          },
+          {
+            "name": "Question Renderer",
+            "description": "Advanced form system supporting multiple question types and formats for comprehensive applications",
+            "location": "Question Renderer component"
+          },
+          {
+            "name": "Application Notes",
+            "description": "View feedback and notes from admin reviewers on your applications",
+            "location": "Note Dialog"
+          },
+          {
+            "name": "Application Requirements",
+            "description": "View detailed requirements and criteria for each application type, including affiliate eligibility",
+            "location": "Application Header"
+          },
+          {
+            "name": "Application Deadlines",
+            "description": "See submission deadlines and time remaining for time-sensitive applications",
+            "location": "Application Card interface"
+          },
+          {
+            "name": "Admin Review Process",
+            "description": "Applications are reviewed by administrators who make approval decisions based on set criteria",
+            "location": "Application status tracking"
+          }
+        ],
+        "keywords": ["applications", "apply", "forms", "status", "tracking", "submissions", "requirements", "deadlines", "notes", "history", "affiliate", "admin-review"]
+      },
+      "affiliate": {
+        "title": "Affiliate Program",
+        "category": "Applications & Business",
+        "url": "/dashboard/affiliate",
+        "description": "Manage your affiliate program, referrals, and view all earned rewards. Affiliate codes are only available through admin approval via application system.",
+        "features": [
+          {
+            "name": "Affiliate Code Management",
+            "description": "View and manage your admin-approved affiliate codes (codes must be obtained through application system)",
+            "location": "Affiliate Code Card"
+          },
+          {
+            "name": "Referral Tracking",
+            "description": "Track users you've referred and their status",
+            "location": "Referrals Table"
+          },
+          {
+            "name": "Complete Rewards Overview",
+            "description": "View all rewards earned from affiliate activities, referrals, and other sources in one centralized location",
+            "location": "Rewards Section"
+          },
+          {
+            "name": "Reward Cards System",
+            "description": "View and manage all types of reward cards earned through various activities",
+            "location": "Reward Card interface"
+          },
+          {
+            "name": "Code Redemption",
+            "description": "Redeem affiliate codes and promotional codes from other affiliates",
+            "location": "Redeem Code Card"
+          },
+          {
+            "name": "Referral Statistics",
+            "description": "View detailed statistics about your referral performance",
+            "location": "Referrals analytics"
+          },
+          {
+            "name": "Commission Tracking",
+            "description": "Track all commissions earned from successful referrals and affiliate activities",
+            "location": "Rewards Section"
+          },
+          {
+            "name": "Comprehensive Rewards History",
+            "description": "View complete history of all rewards, bonuses, and earnings from all sources",
+            "location": "Rewards Section"
+          },
+          {
+            "name": "Payout Management",
+            "description": "Manage payout methods and withdrawal requests for all accumulated rewards",
+            "location": "Rewards Section"
+          },
+          {
+            "name": "Affiliate Link Generation",
+            "description": "Generate custom affiliate links for promotions (only available with approved affiliate code)",
+            "location": "Affiliate Code Card"
+          },
+          {
+            "name": "Performance Metrics",
+            "description": "View conversion rates, click-through rates, and other performance metrics",
+            "location": "Affiliate analytics"
+          },
+          {
+            "name": "Application Status Tracking",
+            "description": "Check the status of your affiliate code application if you haven't been approved yet",
+            "location": "Affiliate Code Card"
+          }
+        ],
+        "keywords": ["affiliate", "referrals", "earnings", "rewards", "commissions", "codes", "tracking", "payouts", "performance", "metrics", "application", "admin-approval"]
+      },
+      "settings": {
+        "title": "Account Settings",
+        "category": "Account",
+        "url": "/dashboard/settings",
+        "description": "Manage your account settings, security, and personal information",
+        "features": [
+          {
+            "name": "Display Name Management",
+            "description": "Change your display name shown on your profile",
+            "location": "Display Name Settings section"
+          },
+          {
+            "name": "Username Settings",
+            "description": "Update your username and profile URL",
+            "location": "Username Settings section"
+          },
+          {
+            "name": "Email Address Management",
+            "description": "Update your email address and notification preferences",
+            "location": "Email Settings section"
+          },
+          {
+            "name": "Email Verification",
+            "description": "Verify your email address for security purposes",
+            "location": "Email Settings section"
+          },
+          {
+            "name": "Discord Integration",
+            "description": "Connect or disconnect your Discord account for profile features",
+            "location": "Discord Connection section"
+          },
+          {
+            "name": "Discord Status Sync",
+            "description": "Sync your Discord status and presence with your profile",
+            "location": "Discord Connection section"
+          },
+          {
+            "name": "Password Management",
+            "description": "Change your account password with security validation",
+            "location": "Password Settings section"
+          },
+          {
+            "name": "Password Requirements",
+            "description": "Enforce strong password requirements and validation",
+            "location": "Password Settings section"
+          },
+          {
+            "name": "Two-Factor Authentication",
+            "description": "Enable, configure, or disable 2FA for enhanced security",
+            "location": "Two-Factor Authentication section"
+          },
+          {
+            "name": "2FA Recovery Codes",
+            "description": "Generate and manage backup recovery codes for 2FA",
+            "location": "Two-Factor Authentication section"
+          },
+          {
+            "name": "Session Management",
+            "description": "View and manage all active sessions and login locations",
+            "location": "Session Manager section"
+          },
+          {
+            "name": "Active Session Monitoring",
+            "description": "Monitor active sessions with device and location information",
+            "location": "Session Manager section"
+          },
+          {
+            "name": "Session Termination",
+            "description": "Terminate individual sessions or all sessions remotely",
+            "location": "Session Manager section"
+          },
+          {
+            "name": "Login History",
+            "description": "View complete login history with timestamps and locations",
+            "location": "Session Manager section"
+          },
+          {
+            "name": "Security Notifications",
+            "description": "Configure security-related email notifications",
+            "location": "Email Settings section"
+          },
+          {
+            "name": "Privacy Settings",
+            "description": "Control privacy settings and data sharing preferences",
+            "location": "Various settings sections"
+          },
+          {
+            "name": "Account Deletion",
+            "description": "Delete your account and all associated data",
+            "location": "Account management section"
+          }
+        ],
+        "keywords": ["settings", "account", "security", "password", "email", "discord", "2fa", "sessions", "privacy", "username", "verification"]
+      }
+    },
+    "platform_info": {
+      "general": {
+        "uid": {
+          "description": "A UID (Unique Identifier) is a unique numerical code assigned to each user profile",
+          "format": "Incrementing number starting from 0",
+          "example": "12345678",
+          "usage": "Used for quick profile access via haunt.gg/uid/[number]"
+        },
+        "discord": {
+          "official_server": "discord.gg/haunt",
+          "response_time": "Usually within 24 hours"
+        }
+      },
+      "payments": {
+        "methods": {
+          "stripe": {
+            "supported_types": ["Credit Card", "Debit Card", "Apple Pay", "Google Pay"],
+            "processing_time": "Instant"
+          },
+          "cryptomus": {
+            "supported_coins": ["Bitcoin", "Ethereum", "Litecoin", "USDT"],
+            "processing_time": "Varies by network confirmation"
+          },
+          "paddle": {
+            "supported_types": ["PayPal"],
+            "processing_time": "Instant"
+          }
+        }
+      },
+      "support": {
+        "contact_methods": {
+          "discord": "Preferred method - Join discord.gg/haunt",
+          "email": "support@haunt.gg"
+        },
+        "response_times": {
+          "discord": "Within 24 hours",
+          "email": "1-2 business days"
+        },
+        "common_issues": {
+          "account_recovery": "Contact via Discord with your UID",
+          "payment_issues": "Include transaction ID in support ticket",
+          "technical_problems": "Check Discord announcements first"
+        }
+      },
+      "legal": {
+        "age_requirement": "13+ years",
+        "terms_url": "haunt.gg/terms",
+        "privacy_url": "haunt.gg/privacy",
+        "data_handling": {
+          "storage_location": "US servers",
+          "data_retention": "Account deletion after 30 days of request",
+          "data_export": "Available upon request"
+        }
+      }
+    }
+  }
