@@ -857,7 +857,7 @@
           },
           {
             "name": "Image Host Time Settings",
-            "description": "Adjust time-related settings such as timezone, time format, and scheduling.",
+            "description": "Adjust time-related settings such as timezone, time format, and time schema.",
             "location": "General Customization section"
           },
           {
