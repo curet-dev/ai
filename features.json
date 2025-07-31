@@ -809,6 +809,133 @@
         ],
         "keywords": ["affiliate", "referrals", "earnings", "rewards", "commissions", "codes", "tracking", "payouts", "performance", "metrics", "application", "admin-approval"]
       },
+      "imagehost_overview": {
+        "title": "Image Host Overview",
+        "category": "Image Host",
+        "url": "/dashboard/imagehost/overview",
+        "description": "View your image host upload statistics and customize your image host settings.",
+        "features": [
+          {
+            "name": "Image Host Analytics",
+            "description": "View detailed analytics such as total uploads, storage usage, and more.",
+            "location": "Top of the Image Host Overview page"
+          },
+          {
+            "name": "Image Host General Customization",
+            "description": "Customize settings like the domain, auto-deletion, timezone, and more.",
+            "location": "General Customization section"
+          },
+          {
+            "name": "Image Host Embed Settings",
+            "description": "Customize the Discord embed that appears when sharing an image link.",
+            "location": "Embed Customization section"
+          },
+          {
+            "name": "Image Host API Key",
+            "description": "View or regenerate your API key. The API key is required for use with upload clients.",
+            "location": "General Customization section"
+          },
+          {
+            "name": "Image Host Upload Clients",
+            "description": "Download configuration files for upload clients like ShareX, Apple Shortcuts, iShare, or Flameshot.",
+            "location": "General Customization section"
+          },
+          {
+            "name": "Image Host Domain",
+            "description": "Choose from multiple available domains for hosting your images.",
+            "location": "General Customization section"
+          },
+          {
+            "name": "Image Host Auto Deletion",
+            "description": "Set a timer to automatically delete your uploaded images after a certain period.",
+            "location": "General Customization section"
+          },
+          {
+            "name": "Image Host File Name",
+            "description": "Customize the length of randomly generated file names.",
+            "location": "General Customization section"
+          },
+          {
+            "name": "Image Host Time Settings",
+            "description": "Adjust time-related settings such as timezone, time format, and scheduling.",
+            "location": "General Customization section"
+          },
+          {
+            "name": "Image Host Export Images",
+            "description": "Export all your uploaded files for backup or migration purposes.",
+            "location": "General Customization section"
+          },
+          {
+            "name": "Image Host Wipe",
+            "description": "Delete all your uploaded files at once.",
+            "location": "General Customization section"
+          },
+          {
+            "name": "Image Host Invisible URL",
+            "description": "Add invisible characters to URLs to make them harder to detect in Discord.",
+            "location": "General Customization section"
+          },
+          {
+            "name": "Image Host Hide File Extension",
+            "description": "Remove the file extension from uploaded image URLs.",
+            "location": "General Customization section"
+          },
+          {
+            "name": "Image Host Anonymous Upload",
+            "description": "Hide your username from uploaded files for privacy.",
+            "location": "General Customization section"
+          },
+          {
+            "name": "Image Host Discord Embed",
+            "description": "Enable Discord embeds for your uploaded image links.",
+            "location": "General Customization section"
+          },
+          {
+            "name": "Image Host Embed Variables",
+            "description": "Use dynamic variables in your Discord embed to display information automatically.",
+            "location": "Embed Customization section"
+          }
+        ],
+        "keywords": ["imagehost", "ShareX", "Shortcuts", "iShare", "Flameshot", "imagehost-embed", "imagehost-upload-client", "imagehost-analytics"]
+      },
+      "imagehost_upload": {
+        "title": "Image Host Upload",
+        "category": "Image Host",
+        "url": "/dashboard/imagehost/upload",
+        "description": "Upload images to your image host easily.",
+        "features": [
+          {
+            "name": "Upload Images",
+            "description": "Upload images to your image host by selecting files or using drag & drop.",
+            "location": "Upload page"
+          }
+        ],
+        "keywords": ["imagehost-upload"]
+      },
+      "imagehost_gallery": {
+        "title": "Image Host Gallery",
+        "category": "Image Host",
+        "url": "/dashboard/imagehost/gallery",
+        "description": "View and manage all your uploaded images.",
+        "features": [
+          {
+            "name": "View Uploaded Images",
+            "description": "Browse all images you have uploaded to your image host.",
+            "location": "Gallery page"
+          },
+          {
+            "name": "Delete Uploaded Images",
+            "description": "Easily delete uploaded images. Locate your file and click the red trash bin icon.",
+            "location": "Gallery page"
+          },
+          {
+            "name": "Download Uploaded Files",
+            "description": "Download any uploaded file from your image host to your device.",
+            "location": "Gallery page"
+          }
+        ],
+        "keywords": ["imagehost-gallery", "imagehost-files", "imagehost-view", "imagehost-delete"]
+      },
       "settings": {
         "title": "Account Settings",
         "category": "Account",
