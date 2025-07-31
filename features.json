@@ -171,6 +171,12 @@
             "location": "YouTube URL Input section"
           },
           {
+            "name": "About Me",
+            "description": "Create an About Me section on your profile with supported Markdown formatting.",
+            "location": "About Me section"
+          },
+
+          {
             "name": "Other Visual Effects",
             "description": "Additional visual customization options and effects",
             "location": "Other Customization section"
