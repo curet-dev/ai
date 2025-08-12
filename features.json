@@ -175,14 +175,18 @@
             "description": "Create an About Me section on your profile with supported Markdown formatting.",
             "location": "About Me section"
           },
-
+          {
+            "name": "About Me Custom Emojis",
+            "description": "You can use custom emojis in your About Me section with supported markdown. You can also join our [Discord server](https://discord.gg/hauntbio) and run the `/emoji` command to get the markdown code for the custom emoji you want to use.",
+            "location": "About Me section"
+          },
           {
             "name": "Other Visual Effects",
             "description": "Additional visual customization options and effects",
             "location": "Other Customization section"
           }
         ],
-        "keywords": ["customize", "colors", "audio", "music", "background", "gradient", "upload", "visual", "effects", "borders", "glow", "youtube", "presence"]
+        "keywords": ["customize", "colors", "audio", "music", "background", "gradient", "upload", "visual", "effects", "borders", "glow", "youtube", "presence", "aboutme", "custom-emojis"]
       },
       "premium": {
         "title": "Premium Features",
@@ -1036,6 +1040,54 @@
         ],
         "keywords": ["settings", "account", "security", "password", "email", "discord", "2fa", "sessions", "privacy", "username", "verification"]
       }
+    },
+    "comparison": {
+      "title": "Comparison",
+      "category": "General",
+      "url": "https://haunt.gg",
+      "description": "We don’t compare haunt.gg to other biolink services. Every biolink is unique, and we focus on making ours stand out in its own way.",
+      "features": [
+        {
+          "name": "No Direct Comparisons",
+          "description": "We avoid comparing haunt.gg with other biolink platforms to respect their individuality.",
+          "location": "General"
+        },
+        {
+          "name": "Uniqueness Focus",
+          "description": "Our goal is to make haunt.gg unique rather than compete directly with others.",
+          "location": "General"
+        }
+      ],
+      "keywords": ["comparison", "other-biolinks", "unique", "individuality"]
+    },
+    "team": {
+      "title": "Staff Team",
+      "category": "Team",
+      "url": "https://haunt.gg/team",
+      "description": "Meet the people behind Haunt. View the full team on our team page.",
+      "features": [
+        {
+          "name": "Curet",
+          "description": "Owner of Haunt",
+          "location": "Team Page"
+        },
+        {
+          "name": "Visics",
+          "description": "Owner of Haunt",
+          "location": "Team Page"
+        },
+        {
+          "name": "Joy",
+          "description": "Manager at Haunt",
+          "location": "Team Page"
+        },
+        {
+          "name": "Adrian",
+          "description": "Manager at Haunt",
+          "location": "Team Page"
+        }
+      ],
+      "keywords": ["team", "staff", "management", "curet", "visics", "joy", "adrian"]
     },
     "platform_info": {
       "general": {
