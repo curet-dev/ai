@@ -146,11 +146,6 @@
             "location": "Audio Manager upload"
           },
           {
-            "name": "Presence Customization",
-            "description": "Customize Discord presence display and settings",
-            "location": "Presence Customization section"
-          },
-          {
             "name": "General Profile Settings",
             "description": "General customization options for overall profile appearance",
             "location": "General Customization section"
@@ -164,6 +159,11 @@
             "name": "Glow Effects",
             "description": "Add glow effects to profile elements",
             "location": "Glow Customization section"
+          },
+          {
+            "name": "Presence Customization",
+            "description": "Customize Discord presence display and settings",
+            "location": "Presence Customization section"
           },
           {
             "name": "YouTube URL Integration",
@@ -186,7 +186,7 @@
             "location": "Other Customization section"
           }
         ],
-        "keywords": ["customize", "colors", "audio", "music", "background", "gradient", "upload", "visual", "effects", "borders", "glow", "youtube", "presence", "aboutme", "custom-emojis"]
+        "keywords": ["customize", "colors", "audio", "music", "background", "gradient", "upload", "visual", "effects", "borders", "glow", "youtube", "aboutme", "custom-emojis", "customize-presence", "edit-presence"]
       },
       "premium": {
         "title": "Premium Features",
@@ -319,7 +319,7 @@
             "location": "Theme Selection interface"
           },
           {
-            "name": "Layout Responsiveness",
+           "name": "Layout Responsiveness",
             "description": "Ensure optimal display across desktop, tablet, and mobile devices",
             "location": "All theme settings"
           },
@@ -327,9 +327,14 @@
             "name": "Custom Layout Elements",
             "description": "Add, remove, or rearrange layout elements within your chosen theme",
             "location": "Theme-specific settings"
-          }
+          },
+          {
+            "name": "Enable Discord Presence",
+            "description": "Enable your Discord presence by going to the Layout page, choosing Discord as the social card, then scrolling down and selecting Presence.",
+            "location": "Layout Page"
+           }
         ],
-        "keywords": ["layout", "themes", "modern", "default", "simplistic", "design", "responsive", "preview", "arrangement", "elements"]
+        "keywords": ["layout", "themes", "modern", "default", "simplistic", "design", "responsive", "preview", "arrangement", "elements", "enable-presence"]
       },
       "badges": {
         "title": "Badges & Achievements",
